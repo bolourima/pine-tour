@@ -1,0 +1,16 @@
+.parent {
+  display: flex;
+  width: 800px;
+  max-height: 300px;
+  gap: 20px;
+  overflow-x: auto;
+  background-color: blue;
+  padding: 20px;
+}
+
+.box {
+  background-color: aqua;
+  height: 200px;
+  width: 200px;
+  flex-shrink: 0;
+}
